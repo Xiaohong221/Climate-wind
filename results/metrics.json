@@ -1,0 +1,20 @@
+{
+  "3h_shape": [
+    67208,
+    160
+  ],
+  "3h_nonfinite": 0,
+  "2020_1h_shape": [
+    8784,
+    160
+  ],
+  "1h_3h_cotimed_mae": 0.0,
+  "1h_3h_cotimed_correlation": 1.0,
+  "movement_storms": 397,
+  "movement_segments": 8113,
+  "genesis_candidates": 396,
+  "genesis_matched": 395,
+  "genesis_left_censored": 230,
+  "2020_daily_vs_hourly_mean_corr": 0.9999999999999967,
+  "2020_daily_vs_hourly_mean_mae": 6.880658694717601e-13
+}
