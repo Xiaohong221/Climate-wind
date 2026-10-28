@@ -1,0 +1,18 @@
+{
+  "question":"How does time sampling/aggregation change 24/48/72h genesis discrimination conditional on a common online 3-hourly disturbance catalog?",
+  "source_commit":"9acb13732ebc42b2468062b61156c2f26ee2da56",
+  "train_years":[2000,2015],"validation_years":[2016,2018],"test_years":[2019,2022],
+  "native_catalog_step_hours":3,"issue_hours_UTC":[0],
+  "detection":"positive local vorticity maxima in 3x3 neighborhoods, amplitude >= 1e-5 in file units; online one-to-one nearest assignment with amplitude penalty, 800km gate, no missing steps bridged",
+  "minimum_candidate_age_hours":12,
+  "history_hours":72,
+  "resolutions_hours":[1,3,6,12,24],
+  "representations":["instantaneous samples including issue time","completed trailing block means excluding issue time"],
+  "label":"one-to-one nearest online candidate within 800km of first TD/TS/HU record at that time; future genesis labels only, never used for detection or predictors",
+  "existing_TC_exclusion_km":800,
+  "model":"standardized logistic regression, C=1, no class reweighting, fixed feature dimension; no test-set tuning",
+  "primary_horizon_hours":72,
+  "threshold":"validation negative-score 99th percentile, strict greater-than; test false-positive rate reported, not forced to 1%",
+  "bootstrap":"500 paired disturbance-cluster bootstrap comparisons at 72h",
+  "scope_warning":"3-hourly catalog is common to all feature comparisons, so daily models are conditional on this fine-resolution catalog. This is not an end-to-end independent daily detector. UTC, vorticity units and dataset provenance require confirmation."
+}

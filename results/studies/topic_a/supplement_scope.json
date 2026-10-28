@@ -1,0 +1,9 @@
+{
+  "added_after_primary_results": true,
+  "purpose": "label sensitivity and descriptive matched contrasts; no new forecast model tuning",
+  "matching": "same partition, <=750km, <=30 climatological days, amplitude ratio 0.5-2, (age+3h) ratio 1/3-3, up to 3 controls from distinct candidate tracks, controls not reused",
+  "controls": "candidate tracks never assigned a genesis event by this catalog; not independently certified physical nondevelopers",
+  "matching_features_use_issue_or_past_only": true,
+  "cases_selected_using_future_labels_for_retrospective_diagnostics": true,
+  "matched_interval_multiplicity": "pointwise 95% intervals, no family-wise adjustment"
+}

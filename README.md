@@ -12,3 +12,9 @@
 复现：确保 Git LFS 数据完整检出，依次运行 `python3 results/analyze.py`、`python3 results/diagnostics.py`。依赖和限制见报告。本分支不包含 HE 或日尺度气象网格数据。
 
 [下载本分支研究成果 ZIP](results/research-results.zip)（仅结果和脚本，不含原始数据）
+
+## 新增研究：选题 A：时间分辨率与形成判识
+
+[研究报告](results/studies/topic_a/研究报告.md) · [主代码](results/studies/topic_a/run.py) · [统计结果](results/studies/topic_a/metrics.csv) · [完整成果下载](results/studies/topic-a-results.zip)
+
+训练2000—2015、验证2016—2018、测试2019—2022。完整方法、负结果与限制均保留在报告中。复现需 main 的完整固定版本数据，原始数据未修改。

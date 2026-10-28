@@ -1,0 +1,19 @@
+{
+  "all_catalog_observations": 765913,
+  "all_candidate_tracks": 81539,
+  "study_genesis_events": 396,
+  "matched_to_catalog_at_genesis": 384,
+  "matched_left_censored_events": 222,
+  "all_test_genesis_events": 84,
+  "test_events_with_eligible_positive_issue": 68,
+  "existing_TC_candidate_issues_removed": 348,
+  "cross_partition_tracks_removed": 23,
+  "catalog_uses_future": false,
+  "features_use_future": false,
+  "event_labels_use_future_as_ground_truth": true,
+  "daily_model_uses_common_3h_candidate_catalog": true,
+  "feature_history_uses_issue_cell_not_future_genesis_cell": true,
+  "threshold_chosen_on_validation_only": true,
+  "predictor_count_baseline": 11,
+  "predictor_count_temporal_models": 19
+}

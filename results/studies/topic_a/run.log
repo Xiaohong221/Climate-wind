@@ -1,0 +1,13 @@
+Loading hourly and 3-hourly vorticity
+Online catalog step 0/67208; candidate tracks 12
+Online catalog step 16000/67208; candidate tracks 19049
+Online catalog step 32000/67208; candidate tracks 38093
+Online catalog step 48000/67208; candidate tracks 57698
+Online catalog step 64000/67208; candidate tracks 77564
+Catalog: 765913 observations, 81539 tracks; genesis events 396
+Split counts: [{'split': 'train', 'samples': 44065, 'candidate_tracks': 16603, 'positive_24h': 205, 'positive_48h': 382, 'positive_72h': 520, 'matched_event_storms': 226}, {'split': 'validation', 'samples': 8144, 'candidate_tracks': 3175, 'positive_24h': 39, 'positive_48h': 72, 'positive_72h': 98, 'matched_event_storms': 45}, {'split': 'test', 'samples': 10985, 'candidate_tracks': 4330, 'positive_24h': 63, 'positive_48h': 116, 'positive_72h': 159, 'matched_event_storms': 68}]
+Completed 24h models
+Completed 48h models
+Completed 72h models
+{"all_catalog_observations": 765913, "all_candidate_tracks": 81539, "study_genesis_events": 396, "matched_to_catalog_at_genesis": 384, "matched_left_censored_events": 222, "all_test_genesis_events": 84, "test_events_with_eligible_positive_issue": 68, "existing_TC_candidate_issues_removed": 348, "cross_partition_tracks_removed": 23, "catalog_uses_future": false, "features_use_future": false, "event_labels_use_future_as_ground_truth": true, "daily_model_uses_common_3h_candidate_catalog": true, "feature_history_uses_issue_cell_not_future_genesis_cell": true, "threshold_chosen_on_validation_only": true, "predictor_count_baseline": 11, "predictor_count_temporal_models": 19}
+Topic A complete

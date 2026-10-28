@@ -1,0 +1,12 @@
+       model  horizon  test_samples  test_positive_samples  test_positive_storms  average_precision  test_recall  test_false_positive_rate
+current_only       72         10881                     91                    38           0.133477     0.241758                  0.008248
+   1h_sample       72         10881                     91                    38           0.139012     0.263736                  0.008990
+  24h_sample       72         10881                     91                    38           0.135811     0.241758                  0.008156
+    24h_mean       72         10881                     91                    38           0.140849     0.274725                  0.007507
+split                               feature  case_storms  case_minus_controls        ci_low      ci_high
+ test               history72_high_fraction           59         3.022212e-02 -4.065571e-02 1.062447e-01
+ test              history72_max_minus_mean           59         3.184675e-06  2.005012e-07 6.205105e-06
+ test                  history72_net_change           59         6.721480e-06  2.557320e-06 1.106734e-05
+ test                         history72_std           59         1.672067e-06  1.146395e-07 3.180394e-06
+ test history72_threshold_persistence_hours           59         1.307910e+00 -3.800847e+00 6.277260e+00
+ test              history72_trend_per_hour           59         8.874533e-08 -4.900471e-09 1.947528e-07

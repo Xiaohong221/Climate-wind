@@ -1,0 +1,14 @@
+{
+  "1h_vs_3h_max_absolute_difference": 0.0,
+  "daily_vs_hourly_derived_mean_absolute_difference": 2.407654969170305e-13,
+  "daily_vs_hourly_derived_max_absolute_difference": 8.488617225582348e-12,
+  "original_daily_all_nan_dates": [
+    "2000-02-29",
+    "2004-02-29",
+    "2008-02-29",
+    "2012-02-29",
+    "2016-02-29",
+    "2020-02-29"
+  ],
+  "hourly_contains_finite_leap_days": true
+}
