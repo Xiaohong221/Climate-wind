@@ -1,0 +1,14 @@
+Loading inputs and building train-only climatologies
+Horizon 24: local 196.91 km, remote 202.15 km; gain -5.24, CI [-8.738231123787804, -1.5771289507937516]; remote K=8
+24h negative control 10/50
+24h negative control 20/50
+24h negative control 30/50
+24h negative control 40/50
+24h negative control 50/50
+Horizon 48: local 468.46 km, remote 490.43 km; gain -21.97, CI [-33.59147895817985, -10.208997954516049]; remote K=8
+48h negative control 10/50
+48h negative control 20/50
+48h negative control 30/50
+48h negative control 40/50
+48h negative control 50/50
+Topic C complete

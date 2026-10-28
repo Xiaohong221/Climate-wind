@@ -1,0 +1,11 @@
+{
+  "PCA_and_climatology_training_end": "2015-12-31",
+  "test_used_for_selection": false,
+  "HE_days_end_before_issue": true,
+  "raw_HE_nodes": 288,
+  "remote_HE_nodes": 176,
+  "remote_minimum_distance_km": 1500,
+  "purged_cross_partition_storms": [],
+  "same_test_rows_for_all_models": true,
+  "primary_horizon_hours": 24
+}
