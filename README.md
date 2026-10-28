@@ -9,3 +9,10 @@
 复现：`python3 results/audit_daily.py`。目前完成数据质量核查，尚无本数据集独立的飓风移动/形成研究结果。
 
 [下载本分支研究成果 ZIP](results/research-results.zip)（仅结果和脚本，不含原始数据）
+
+## 协同研究链接
+
+- [选题 A：时间分辨率与形成判识](https://github.com/Xiaohong221/Climate-wind/blob/NA_Hourly/results/studies/topic_a/研究报告.md)：使用小时源派生完整日均进行受控比较，原日均六个闰日缺失保持原样。
+- [选题 C：远程 HE 信息的移动预测增量](https://github.com/Xiaohong221/Climate-wind/blob/HE_2000_2022/results/studies/topic_c/研究报告.md)：本分支日涡度/风速作为局地控制变量。
+
+代码及主结果各自保存于对应研究分支，避免把协同结果误当作独立日尺度研究。
