@@ -1,0 +1,6 @@
+{
+  "scope": "2020 NA daily mean versus hourly-derived mean, from the prior joint analysis; hourly source retained in main and NA_Hourly",
+  "year": 2020,
+  "correlation": 0.9999999999999967,
+  "mean_absolute_error": 6.880658694717601e-13
+}
