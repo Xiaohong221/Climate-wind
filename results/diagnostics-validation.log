@@ -1,0 +1,27 @@
+{
+  "description": "Retrospective, IBTrACS-guided strongest positive cell within 800 km at BOTH times; not independent tracking or a forecast",
+  "segments_24h": 6428,
+  "storms": 369,
+  "median_localization_error_km": 213.50904636833616,
+  "stationary_peak_fraction": 0.23164281269446174,
+  "east_displacement_correlation": 0.8654904509642161,
+  "north_displacement_correlation": 0.6701425193153928
+}
+                  subset   n  lead_hours  difference   ci_low  ci_high
+                     all 395         -72    0.000004 0.000002 0.000005
+                     all 395         -48    0.000005 0.000003 0.000007
+                     all 395         -24    0.000014 0.000012 0.000016
+                     all 395           0    0.000039 0.000037 0.000041
+                     all 395          24    0.000011 0.000008 0.000014
+                     all 395          48    0.000003 0.000001 0.000005
+prior_nontropical_record 165         -72    0.000004 0.000002 0.000007
+prior_nontropical_record 165         -48    0.000007 0.000004 0.000010
+prior_nontropical_record 165         -24    0.000020 0.000016 0.000024
+prior_nontropical_record 165           0    0.000046 0.000042 0.000049
+prior_nontropical_record 165          24    0.000015 0.000011 0.000019
+prior_nontropical_record 165          48    0.000005 0.000001 0.000009
+lat_band  speed_ci_low  speed_ci_high  west_ci_low  west_ci_high  north_ci_low  north_ci_high
+   15–25     17.032373      19.014623     0.822069      0.886201      0.818933       0.874880
+   25–35     15.166128      17.364071     0.427860      0.512930      0.760629       0.834829
+   35–45     27.897181      34.618655     0.047824      0.110122      0.807672       0.899773
+    5–15     21.877477      25.467672     0.932368      0.981964      0.765656       0.853976

@@ -1,0 +1,31 @@
+{
+  "3h_shape": [
+    67208,
+    160
+  ],
+  "3h_nonfinite": 0,
+  "2020_1h_shape": [
+    8784,
+    160
+  ],
+  "1h_3h_cotimed_mae": 0.0,
+  "1h_3h_cotimed_correlation": 1.0,
+  "movement_storms": 397,
+  "movement_segments": 8113,
+  "genesis_candidates": 396,
+  "genesis_matched": 395,
+  "genesis_left_censored": 230
+}
+          segments  storms  median_speed_kmh  westward_fraction  northward_fraction
+lat_band                                                                           
+5–15          1260     145         23.645588           0.959524            0.811111
+15–25         3024     242         18.021284           0.855489            0.847884
+25–35         2893     256         16.290413           0.472174            0.798825
+35–45          936     161         30.506454           0.077991            0.853632
+ lead_hours  n_storms  event_mean  control_mean  difference   ci_low  ci_high
+        -72       395    0.000004  2.347841e-07    0.000004 0.000002 0.000005
+        -48       395    0.000005  1.128680e-07    0.000005 0.000003 0.000007
+        -24       395    0.000015  5.326847e-07    0.000014 0.000012 0.000016
+          0       395    0.000040  6.201021e-07    0.000039 0.000037 0.000041
+         24       395    0.000012  4.586444e-07    0.000011 0.000009 0.000014
+         48       395    0.000004  6.533729e-07    0.000003 0.000001 0.000005

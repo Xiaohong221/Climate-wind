@@ -1,0 +1,7 @@
+{
+  "branch": "NA_Hourly",
+  "source_commit": "9acb13732ebc42b2468062b61156c2f26ee2da56",
+  "dataset": "NA_5N45N_250E350E_Hourly",
+  "shared_track_file": "data_hurricanes/ibtracs.NA.list.v04r01.csv",
+  "analysis_scope": "hourly vorticity and cyclone retrospective study"
+}

@@ -1,0 +1,9 @@
+{
+  "description": "Retrospective, IBTrACS-guided strongest positive cell within 800 km at BOTH times; not independent tracking or a forecast",
+  "segments_24h": 6428,
+  "storms": 369,
+  "median_localization_error_km": 213.50904636833616,
+  "stationary_peak_fraction": 0.23164281269446174,
+  "east_displacement_correlation": 0.8654904509642161,
+  "north_displacement_correlation": 0.6701425193153928
+}

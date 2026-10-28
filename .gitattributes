@@ -1,0 +1,3 @@
+data_hurricanes/*.csv filter=lfs diff=lfs merge=lfs -text
+NA_5N45N_250E350E_Hourly/1H/** filter=lfs diff=lfs merge=lfs -text
+NA_5N45N_250E350E_Hourly/3H/** filter=lfs diff=lfs merge=lfs -text
